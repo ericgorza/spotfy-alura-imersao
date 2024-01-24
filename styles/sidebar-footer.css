@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 h1 {
@@ -172,4 +173,51 @@ h1 {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: #fff;
+    height: 40px;
+    padding: 20px 40px 20px 40px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 10px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer__content .footer-title {
+    font-weight: 700;
+}
+
+.footer__content .footer-subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.footer__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-right: 5%;
+    border: 0px;
+    width: 150px;
 }
